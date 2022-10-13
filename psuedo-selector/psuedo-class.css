@@ -1,0 +1,15 @@
+input:focus{
+    outline:solid 3px rgb(255, 0, 0);
+    background-color: cornflowerblue;
+  
+}
+a:hover{
+    font-size: 25px;
+    background-color: rgb(255, 0, 0);
+}
+a:visited{
+    color: gold;
+}
+a:active{
+    color: rgb(27, 230, 17);
+}

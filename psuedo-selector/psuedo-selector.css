@@ -1,0 +1,21 @@
+p::first-letter{
+    font-size: 35px;
+    color: blue;
+}
+p::first-line{
+    color: rgb(240, 15, 15);
+}
+h3::before{
+    content:"(" ;
+}
+h3::after{
+    content: ")";
+}
+p::selection{
+    background-color: black;
+    color: beige;
+}
+li +li::before{
+    content: "|";
+}
+
