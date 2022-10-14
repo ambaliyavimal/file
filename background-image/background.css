@@ -1,0 +1,55 @@
+.bg{
+    background-color: coral;
+    height: 400px;
+    font-size: large;
+}
+.background-attachment{
+    background-image: url(./images.jpg);
+    height: 400px;
+    background-attachment: fixed;
+}
+.background-clip{
+    background-image: url(./images.jpg);
+    height: 400px;
+    font-size: 25px;
+    background-clip: content-box;
+    color: rgb(243, 251, 4);
+
+}
+.background-repeat{
+    background-image: url(./images.jpg);
+    height: 400px;
+    font-size: 25px;
+    color: rgb(250, 61, 4);
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+}
+.background-position{
+    background-image: url(./images.jpg);
+    height: 400px;
+    font-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 10px dashed gray;
+    color: rgb(250, 55, 6);
+}
+.background-size{
+    background-image: url(./images.jpg);
+    height: 400px;
+    font-size: 25px;
+    color: rgb(250, 67, 6);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.background{
+    font-size: 25px;
+    background-image: url(./images.jpg);
+    height: 400px;
+    color: rgb(205, 250, 6);
+    
+}
+.background-flag{
+    font-size: 25px;
+    height: 400px;
+    background: linear-gradient(  orange , white,green);
+}
