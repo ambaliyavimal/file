@@ -1,0 +1,29 @@
+.box-groove{
+    border: groove 35px rgb(253, 216, 2);
+}
+.box-deshed{
+    border: dashed 15px darkgoldenrod;
+}
+.box-dotted{
+    border: dotted 10px rebeccapurple;
+
+}
+.box-inset{
+    border: inset 15px red
+}
+.box-outset{
+    border: outset 20px navy;
+}
+.box-ridge{
+    border: ridge 25px cyan;
+}
+.solid{
+    border: solid 20px rgb(78, 253, 3);
+    border-radius: 250px;
+    width: 350px;
+    height: 59vh;
+    text-align: center;
+}
+.double{
+    border: double 25px rgb(252, 3, 252);
+}
