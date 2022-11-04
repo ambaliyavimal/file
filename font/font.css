@@ -1,0 +1,36 @@
+p{
+    font-family: serif;
+    line-height: 50px;
+}
+.font{
+    font-family: sans-serif;
+    line-height: 60px;
+}
+.li{
+    font-family: monospace;
+    line-height: 40px;
+}
+.px{
+    font-size: 34px;
+}  
+.cm{
+    font-size: 5cm;
+}  
+.em{
+    font-size: 3em;
+}
+.rem{
+    font-size: 3rem;
+}
+.pr{
+    font-size:500% ;
+}
+.vh{
+    font-size: 42vh;
+}
+.wt{
+    font-weight: 900;
+}
+.in{
+    font-size: 5cm;
+}
