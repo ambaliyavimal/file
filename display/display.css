@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+    border: 3px solid cadetblue;
+    margin: auto;
+    width: 50%;
+}
+img{
+    display: block;
+    margin: auto;
+    border-radius: 40%;    
+}
+h2{
+    text-align: center;
+}
+.list{
+    display: inline-block;
+    border: 5px solid coral;
+    background-color: rgb(173, 222, 135);
+    margin: 8px;
+    padding: 30px;
+    width: 30%;
+}
+.cr{
+    margin: auto;
+    width: 1000px;
+}
