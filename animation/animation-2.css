@@ -1,0 +1,23 @@
+.container{
+    background-color: rgb(4, 136, 252);
+}
+.box{
+    width: 200px;
+    height: 35vh;
+    background-color: rgb(253, 184, 55);
+    position: relative;
+    animation-name: av;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-direction: alternate;
+}
+@keyframes av{
+    from{
+        width: 200px;
+    }
+    to{
+        width: 800px;
+    }
+}
