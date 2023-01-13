@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="section" id="sec" name="home">
+        <h1 class="heading">hello</h1>
+
+        <input type="text" name="ipt" id="">
+
+        <p class="lrm" id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et error cumque suscipit.</p>
+    
+        <p class="lrm" id="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et error cumque suscipit.</p>
+    
+        <p class="lrm" id="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et error cumque suscipit.</p>
+
+        <h2 class="heading">hello</h2>
+    </div>
+    <script>
+    
+        let element = document.getElementById('p1')
+        // element = document.childNodes
+        // element = element.parentNode
+        element.innerHTML = '<i>paragraph</i>'
+        element.innerText = 'paragraph'
+        element.style.color = 'red'
+        console.log(element);
+
+        // let cell = document.querySelector('#sec')
+        //     cell = document.querySelector('.lrm')
+        //     cell = document.querySelector('.heading')
+        //     cell = document.querySelector('div')
+        //     cell.style.color = 'gold'
+
+                                            
+
+        // let mult = document.getElementsByClassName('lrm')
+        //     console.log(mult);
+        // let multy = document.getElementsByName('ipt')
+        //     console.log(multy);
+
+        // let multy2 = document.getElementsByTagName('div')
+        //     console.log(multy2); 
+    </script>
+
+</body>
+</html>
