@@ -1,0 +1,29 @@
+.container{
+    width: 900px;
+    min-height: 400px;
+    margin: 60px auto;
+    box-shadow: 0 0 15px black;
+    position: relative;
+    overflow: hidden;
+}
+img{
+    position: absolute;
+    width: 100%;
+    transition: 1s;
+
+}
+.right i{
+    font-size: 60px;
+    position: absolute;
+    left: 100px;
+    top: 230px;
+    cursor: pointer;
+
+}
+.left i{
+    font-size: 60px;
+    position: absolute;
+    top: 230px;
+    right: 100px;
+    cursor: pointer;
+}
