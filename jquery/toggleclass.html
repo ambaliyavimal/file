@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    
+<style>
+     #box{
+        width: 600px;
+        border: solid 1px;
+        margin: 0 auto;
+        transition: 1s;
+    }
+    button{
+        display: block;
+        margin: 0 auto;
+    }
+    .bg{
+        background-color: cornflowerblue;
+        padding: 20px;
+    }
+    .color{
+        color: gold;
+    }
+</style>
+</head>
+<body>
+    <div id="box">
+        <h1>toggle class</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam, sint consequatur laudantium sequi, veritatis, molestias suscipit modi sapiente ducimus eum ratione in obcaecati blanditiis? Tempore officia atque in modi?</p>
+    </div>
+    <button id="add">add class</button>
+    <button id="remove">remove class</button>
+    <button id="toggle">toggle class</button>
+    <script>
+        $('#add').click(function(){
+            $('#box').addClass('bg color')
+        })
+        
+        $('#remove').click(function(){
+            $('#box').removeClass('bg')
+        })
+        $('#toggle').click(function(){
+            $('#box').toggleClass('bg color')
+        })
+    </script>
+</body>
+</html>
