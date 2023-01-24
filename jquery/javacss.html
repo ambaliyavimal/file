@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+  <style>
+     div {
+        height: 50px;
+        margin: 5px;
+        padding: 5px;
+        display: inline-block;
+    }
+    #box1 {
+        width: 50px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(43, 227, 215);
+    }
+    #box2 {
+        width: 60px;
+        color: white;
+        background-color: peru;
+    }
+    #box3 {
+        width: 70px;
+        color: wheat;
+        background-color: cadetblue;
+    }
+    #box4 {
+        width: 80px;
+        color: rgb(255, 255, 255);
+        background-color: saddlebrown;
+    }
+  </style>
+</head>
+<body>
+    <p id="paragraph">&nbsp;</p>
+    <div id="box1">1</div>
+    <div id="box2">2</div>
+    <div id="box3">3</div>
+    <div id="box4">4</div>
+
+    <script>
+        $("div").click(function(){
+            let html = ["follwing styles:"];
+
+            let styleProps = $(this).css([
+                "width", "height", "color","background-color"
+            ]);
+            $(this).css("color")
+            $(this).css("color","black")
+            console.log(styleProps);
+            
+            $.each(styleProps, function(prop,value){
+                console.log(prop + value);
+                html.push(prop + ":" + value)
+            })
+            $('#paragraph').html(html.join("<br>"))
+        })
+    </script>
+</body>
+</html>
