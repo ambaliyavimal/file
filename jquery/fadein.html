@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: none;
+        }
+        #div1{
+            background-color: cadetblue;
+        }
+        #div2{
+            background-color: yellowgreen;
+        }
+        #div3{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <button id="fade">fadein</button>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+
+
+    <script>
+        $('#fade').click(function(){
+            $('#div1').fadeIn()
+            $('#div2').fadeIn('slow')
+            $('#div3').fadeIn(4000)
+        })
+    </script>
+</body>
+</html>
