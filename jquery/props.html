@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <style>
+        div{
+            width: 500px;
+            background-color: chocolate;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>props</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium natus in quae cupiditate sequi nostrum. Sunt veniam molestias sequi error doloremque et, facere repellat quas sint a aperiam, eligendi recusandae?</p>
+        <input type="text">
+        <button>props</button>
+    </div>
+    <h2></h2>
+    <script>
+        $('div').on('click',function(){
+            $('h2').html("target-element:" + event.target.nodeName)
+        })
+    </script>
+</body>
+</html>
