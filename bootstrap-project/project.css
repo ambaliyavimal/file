@@ -1,0 +1,21 @@
+.header-bg{
+    background-color: rgb(253, 78, 14);
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-color: transparent;
+    
+}  
+.carousel-item p {
+    padding: 0 30px;
+
+}
+
+.color{
+    color: orangered !important;
+    font-size: 30px;
+}
+.icn{
+    color: orangered;
+    font-size: 150px;
+}
